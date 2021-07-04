@@ -7,7 +7,7 @@ const StripeCheckoutButton = ({ price }) => {
 
   const onToken = (token) => {
     console.log(token);
-    alert('Payment Successful');
+    alert('Payment Succesful');
   };
 
   return (
@@ -16,7 +16,7 @@ const StripeCheckoutButton = ({ price }) => {
       name="CROWN Clothing Ltd.,"
       billingAddress
       shippingAddress
-      image="https://sendeyo.com/up/d/f3eb2117da"
+      image="https://svgshare.com/i/CUz.svg"
       description={`Your total is $${price}`}
       amount={priceForStripe}
       panelLabel="Pay Now"
